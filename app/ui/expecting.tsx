@@ -4,7 +4,7 @@ export default function Expecting() {
   return (
     <section className="mb-4 py-8">
       <h1 className="text-4xl font-bold text-center mt-3">What you'll get</h1>
-      <div className="w-3/4 mx-auto grid grid-cols-3 gap-6 mt-16 shadow-md pb-20">
+      <div className="w-3/4 mx-auto grid grid-cols-3 gap-6 mt-16 shadow-sm pb-20">
         <div className="flex flex-col items-start gap-3">
           <Image
             src={'/images/hero-img.jpg'}

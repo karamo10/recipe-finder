@@ -12,6 +12,7 @@ export default function NavBar() {
                 <Link href={'/'} className="text-lg border-b-2 border-b-amber-500">Home</Link>
                 <Link href={'/'} className="text-lg border-b-2 border-b-neutral-50  hover:border-b-2 hover:border-b-amber-500">About</Link>
                 <Link href={'/'} className="text-lg border-b-2 border-b-neutral-50 hover:border-b-2 hover:border-b-amber-500">Recipes</Link>
+                <Link href={'/login'} className="text-lg border-b-2 border-b-neutral-50 hover:border-b-2 hover:border-b-amber-500">Login</Link>
             </div>
             <div>
                 <Button />
